@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>College Application Form</title>
+	</head>
+	<body>
+		<h1>College Admission Form</h1><hr>
+		<form>
+			<label class="sub-head">Full Name of Applicant:</label>
+			<input type="text" id="fst_name" class="name" name="name" placeholder="First Name" required>
+			<input type="text" id="mid_name" class="name" name="name" placeholder="Middle Name" required>
+			<input type="text" id="lst_name" class="name" name="name" placeholder="Last Name" required><br><br>
+			
+			<label>Date of Birth:</label>
+			<input type="date"id="dob" name="dob" class="name" required><br><br>
+			
+			<label>Applicant's mail:</label>
+			<input type="email" id="email" name="email" class="name" placeholder="Enter your E-mail" required><br><br>
+
+			<label>Applicant's Phone:</label>
+			<input type="number" id="phno" class="name" name="phno" placeholder="Enter the Phone number"><br><br>
+			
+			<label>Permanent Address:</label>
+			<textarea></textarea>
+			<!--<input type="text" id="city" name="city" class="name" placeholder="City">
+			<input type="text" id="State" name="State" class="name" placeholder="State">
+			<input type="number" id="pin" name="pin" class="name" placeholder="pincode">
+			-->
+			<select>
+				<option>Country</option>
+				<option>India</option>
+				<option>Japan</option>
+				<option>UK</option>
+				<option>China</option>
+			</select><br><br>
+			
+			<label>Select Course:</label><br><br>
+			<input type="radio" id="python" class="course"  name="course">Python<br><br>
+			<input type="radio" id="Java" class="course" name="course">Java<br><br>
+			<input type="radio" id="C++" class="course" name="course">C++<br><br>
+			<input type="radio" id="cython" class="course"  name="course">cython<br><br><br>
+			
+			<label>Joining Date:</label>
+			<input type="date" id="date" class="name" name="date" required><br><br>
+			
+			<label>Attached the HSLC Certificate:</label>
+			<input type="file" id="file" name="file" class="name" required><br><br>
+		
+			<center><button>Apply Now</button></center>
+		</form>
+	</body>
+</html>
