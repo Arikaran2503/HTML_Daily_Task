@@ -2,6 +2,9 @@
 
 A simple **College Admission Form** created using HTML.
 
+## Output Screenshot
+<img width="1147" height="862" alt="output" src="https://github.com/user-attachments/assets/cc5a2100-1487-4000-9668-1414c65b790a" />
+
 ## Features
 
 - Applicant full name
