@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title>SBI Online NEFT Transfer</title>
+	</head>
+	<body>
+		<center>
+		<h1>SBI Online NEFT Transfer</h1><hr></center>
+		<h4>Select the account from which you wish to transfer funds</h4>
+		
+		<form>
+			<table border=1>
+				<tr>
+					<th>Account No.</th>
+					<th>Account Type</th>
+					<th>Branch</th>
+					<th>Balance</th>
+				</tr>
+			
+				<tr>
+					<td><input type="radio" name="account">0000023720XXXX</td>
+					<td>Savings Account</td>
+					<td>Bhangalpur</td>
+					<td>3,024.42</td>
+				</tr>
+			
+				<!--<tr>
+					<td><input type="radio" name="account">0000094347XXXX</td>
+					<td>Current Account</td>
+					<td>Dholakpur</td>
+					<td>1,0034.48</td>
+				</tr>
+			
+				<tr>
+					<td><input type="radio" name="account">0000082334XXXX</td>
+					<td>Current Account</td>
+					<td>ST. Thomas Mount</td>
+					<td>22,0034.99</td>
+				</tr>-->
+			</table><br><br>
+		
+			<label>Selected Account Number - 00000082393XXXX</label><br><br>
+			
+			<label>Amount</label>
+			<input type="number" id="number" required><br><br>
+			
+			<label>Purpose</label>
+			<select>
+				<option>--Select Purpose--</option>
+				<option>home loan</option>
+				<option>medical loan</option>
+				<option>educational loan</option>
+			</select><br><br>
+			
+			<h4>Select the Intra-Bank Beneficiary account</h4>
+			
+			<table border=1>
+				<tr>
+					<th>Account No.</th>
+					<th>Intra-Bank Beneficiary Name</th>
+					<th>Branch</th>
+					<th>Limit</th>
+					<th></th>
+				</tr>
+			
+				<tr>
+					<td><input type="radio" name="account">0000023720XXXX</td>
+					<td>Durai</td>
+					<td>Bhangalpur</td>
+					<td>100000</td>
+					<td><input type="button" value="change"></td>
+				</tr>
+			
+				<tr>
+					<td><input type="radio" name="account">0000094347XXXX</td>
+					<td>Kumar</td>
+					<td>Dholakpur</td>
+					<td>10000</td>
+					<td><input type="button" value="change"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="radio" name="account">0000059322XXXX</td>
+					<td>Jasper</td>
+					<td>Chennai</td>
+					<td>20000</td>
+					<td><input type="button" value="change"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="radio" name="account">0000082334XXXX</td>
+					<td>Kumari</td>
+					<td>ST. Thomas Mount</td>
+					<td>25000</td>
+					<td><input type="submit" value="change"></td>
+				</tr>
+			</table><br><br>
+			
+			<label>Selected Account Number - 00000082393XXXX</label><br><br>
+			
+			<h4>Select Payment Option</h4>
+			
+			<label>Payment Option</label>
+			<input type="radio" id="pay" name="payop">Pay Now
+			<input type="radio" id="pay" name="payop">Scheduler later
+			<input type="radio" id="pay" name="payop">Standing instruction<br><br>
+			
+			<center>
+			<input type="submit" value="submit">
+			<input type="button" value="Cancel"></center>
+		</form>
+	</body>
+</html>
