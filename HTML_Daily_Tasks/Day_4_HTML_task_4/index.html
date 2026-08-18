@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>IndusInd Bank</title>
+	</head>
+	<body>
+		<center><h1>IndusInd Bank Credit Card details</h1><hr></center>
+		<h4>Please enter your IndusInd Bank Credit Card number and payment amount<h4><br>
+		
+		<form>
+		
+			<label>Select Card Type</label>
+			<input type="radio" id="visa" name="pay">
+			<img src="img/visa.png" width="60px" height="20px"></img>
+			<input type="radio" id="visa" name="pay">
+			<img src="img/paypal.png" width="60px" height="20px"></img>
+			<input type="radio" id="visa" name="pay">
+			<img src="img/paytm.png" width="40px" height="30px"></img>
+			<br><br><br>
+			
+			<label>IndusInd Bank Credit Card No.</label>
+			<input type="number" id="firstfour" name="cardno" required>
+			<input type="number" id="secondfour" name="cardno" required>
+			<input type="number" id="thirdfour" name="cardno" required>
+			<input type="number" id="lastfour" name="cardno" required><br><br>
+			
+			<label>Re-enter IndusInd Bank Credit Card No.</label>
+			<input type="number" id="firstfour" name="cardno" required>
+			<input type="number" id="secondfour" name="cardno" required>
+			<input type="number" id="thirdfour" name="cardno" required>
+			<input type="number" id="lastfour" name="cardno" required><br><br>
+			
+			<label>E-mail ID</label>
+			<input type="email" id="email" name="email" required><br><br>
+			
+			<label>Mobile No.</label>
+			<input type="number" id="phno" name="phno" required><br><br>
+			
+			<label>Payment Amount(Rs.)</label>
+			<input type="number" id="payamount" name="payamount"><br><br>
+			
+			<h4>Choose your bank Account below and click on 'Submit'.</h4><hr><br>
+			
+			<label>Select Bank Account</label>
+			<select>
+				<option>State Bank of India</option>
+				<option>IndusInd Bank</option>
+				<option>Indian Overseas Bank</option>
+				<option>Tamilnad Merchantile Bank</option>
+			</select><br><br>
+			
+			<center><button>Submit</button></center>
+		</form>
+	</body>
+</html>
