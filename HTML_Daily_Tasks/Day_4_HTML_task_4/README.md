@@ -2,7 +2,8 @@
 
 A simple HTML-based **IndusInd Bank Credit Card payment form** created using HTML.
 
-Output_Screenshot
+# Output_Screenshot
+
 <img width="1918" height="912" alt="image" src="https://github.com/user-attachments/assets/df1aab27-2053-44c9-87b1-b97a0e5f78e6" />
 
 
